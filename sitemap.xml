@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- Home Page - Highest Priority -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://digitalmarketingthrissur.online/"/>
+        <image:image>
+            <image:loc>https://digitalmarketingthrissur.online/logo.png</image:loc>
+            <image:title>Digital Marketing Thrissur - #1 Agency for Thrissur Businesses</image:title>
+            <image:caption>Elite digital marketing agency based in Thrissur, Kerala</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Service Pages -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/local-seo-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://digitalmarketingthrissur.online/local-seo-thrissur/"/>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/google-ads-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/social-media-marketing-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/website-design-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Location-Specific Pages -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-punkunnam/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-east-fort/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-west-fort/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-round-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Industry-Specific Pages -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-for-jewelry-shops-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-for-restaurants-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-for-medical-clinics-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/digital-marketing-for-retail-stores-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Resource Pages -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/case-studies/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/roi-calculator/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/contact/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/free-audit/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Blog/Resource Articles (Future Content) -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/blog/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/blog/how-to-rank-google-thrissur/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/blog/thrissur-festival-marketing-guide/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Legal Pages -->
+    <url>
+        <loc>https://digitalmarketingthrissur.online/privacy-policy/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://digitalmarketingthrissur.online/terms-of-service/</loc>
+        <lastmod>2024-01-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+</urlset>
