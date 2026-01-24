@@ -24,10 +24,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+     <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Digital Marketing Thrissur",
+        "image": "https://digitalmarketingthrissur.online/images/logo.png",
+        "@id": "https://digitalmarketingthrissur.online",
+        "url": "https://digitalmarketingthrissur.online",
+        "telephone": "+917306662162",
+        "email": "akhil.krishna.ms.2@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Thrissur",
+            "addressRegion": "Kerala",
+            "postalCode": "680001",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.527642,
+            "longitude": 76.214435
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+        },
+        "sameAs": [
+            "https://www.facebook.com/digitalmarketingthrissur",
+            "https://www.instagram.com/digital_marketing_thrissur",
+            "https://www.linkedin.com/akhilkrishnams"
+        ],
+        "description": "Digital Marketing Thrissur is Kerala's premier digital marketing agency specializing in SEO, Google Ads, Social Media Marketing & Website Design for Thrissur businesses."
+    }
+    </script>
+    
     
     <!-- Critical CSS (Inlined for Performance) -->
     <style>
@@ -315,6 +361,12 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             transition: all 0.3s ease;
         }
+
+        /* Add this anywhere in your CSS file */
+    .hero {
+    padding-top: 120px !important;
+    margin-top: 0 !important;
+    }
         
         .navbar.scrolled {
             padding: 1rem 0;
@@ -1492,16 +1544,16 @@
             
             <div class="trust-badges" style="justify-content: center; margin-top: 4rem;">
                 <div class="badge">
-                    <i class="fab fa-google"></i> Google Partner
+                    <i class="fab fa-google"></i> Google Certified
                 </div>
                 <div class="badge">
-                    <i class="fas fa-building"></i> Thrissur Chamber of Commerce
+                    <i class="fas fa-building"></i> Licensed Agency
                 </div>
                 <div class="badge">
-                    <i class="fas fa-award"></i> Kerala Business Excellence
+                    <i class="fas fa-award"></i> Certified in Digital Marketing
                 </div>
                 <div class="badge">
-                    <i class="fas fa-star"></i> 47+ Thrissur Clients
+                    <i class="fas fa-star"></i> Focusing Thrissur Clients
                 </div>
                 <div class="badge">
                     <i class="fas fa-thumbs-up"></i> 98% Client Retention
@@ -1784,13 +1836,13 @@
                         <h4>Trust & Verification</h4>
                         <div class="trust-badges">
                             <div class="badge">
-                                <i class="fab fa-google"></i> Google Partner
+                                <i class="fab fa-google"></i> Google Certified
                             </div>
                             <div class="badge">
-                                <i class="fas fa-building"></i> Thrissur Chamber
+                                <i class="fas fa-building"></i> Licensed Advertising Agency
                             </div>
                             <div class="badge">
-                                <i class="fas fa-award"></i> Kerala Excellence
+                                <i class="fas fa-award"></i> Thrissur Based Agency
                             </div>
                         </div>
                     </div>
@@ -2383,6 +2435,34 @@
             }
         `;
         document.head.appendChild(style);
+
+// Quick fix for dropdown colors
+document.addEventListener('DOMContentLoaded', function() {
+    // Fix all select dropdowns
+    const selects = document.querySelectorAll('select');
+    selects.forEach(select => {
+        // Add custom styling
+        select.style.backgroundColor = '#1a1a1a';
+        select.style.color = '#ffffff';
+        select.style.border = '1px solid #2a2a2a';
+        select.style.borderRadius = '12px';
+        select.style.padding = '1rem';
+        
+        // Add dropdown arrow
+        select.style.backgroundImage = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E\")";
+        select.style.backgroundRepeat = 'no-repeat';
+        select.style.backgroundPosition = 'right 1rem center';
+        select.style.backgroundSize = '16px';
+        
+        // Style options
+        const options = select.querySelectorAll('option');
+        options.forEach(option => {
+            option.style.backgroundColor = '#1a1a1a';
+            option.style.color = '#ffffff';
+        });
+    });
+});
+    
     </script>
 </body>
 </html>
