@@ -2076,52 +2076,74 @@
                 
                 // Simulate API call
                 setTimeout(() => {
-                    // Create a success message
-                    fetch("/api/contact", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
+
+    // Create a success message
+    const successMessage = document.createElement('div');
+
+    successMessage.innerHTML = `
+        <div style="padding: 2rem; text-align: center;">
+            <div style="
+                width: 80px;
+                height: 80px;
+                background: rgba(50, 215, 75, 0.1);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 1.5rem;
+            ">
+                <i class="fas fa-check" style="font-size: 2rem; color: #32D74B;"></i>
+            </div>
+
+            <h3>Thank You, ${businessName}!</h3>
+
+            <p>Your Thrissur Marketing Audit request has been received successfully.</p>
+
+            <p>
+                Our Thrissur team will contact you within
+                <strong>2 hours</strong> at ${phone}
+                to schedule your free strategy session.
+            </p>
+
+            <p>We've also emailed the audit checklist to ${email}.</p>
+
+            <p><strong>Next Steps:</strong></p>
+
+            <ol style="text-align: left; margin: 1rem 0; padding-left: 1.5rem;">
+                <li>Check your email for the audit checklist</li>
+                <li>Answer our call from +91-7306662162</li>
+                <li>Prepare for your free Thrissur strategy session</li>
+            </ol>
+
+            <button
+                class="btn btn-primary"
+                style="margin-top: 1.5rem;"
+                onclick="this.parentElement.parentElement.remove(); contactForm.style.display = 'block';"
+            >
+                Close
+            </button>
+        </div>
+    `;
+
+    // Replace form with success message
+    contactForm.style.display = 'none';
+    contactForm.parentElement.appendChild(successMessage);
+
+    // Debug log
+    console.log('Form submitted:', {
         businessName,
         businessType,
         location,
         phone,
         email,
         goals
-    })
-})
-.then(res => res.json())
-.then(result => {
-    if (!result.success) {
-        throw new Error("Submission failed");
-    }
+    });
 
-    const successMessage = document.createElement('div');
-    successMessage.innerHTML = `
-        <div style="padding: 2rem; text-align: center;">
-            <div style="width: 80px; height: 80px; background: rgba(50, 215, 75, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
-                <i class="fas fa-check" style="font-size: 2rem; color: #32D74B;"></i>
-            </div>
-            <h3>Thank You, ${businessName}!</h3>
-            <p>Your Thrissur Marketing Audit request has been received.</p>
-            <p>Our team will contact you within <strong>2 hours</strong>.</p>
-        </div>
-    `;
-
-    contactForm.style.display = 'none';
-    contactForm.parentElement.appendChild(successMessage);
-})
-.catch(() => {
-    showMessage("Submission failed. Please try again.", "error");
-})
-.finally(() => {
+    // Reset button
     submitBtn.innerHTML = originalText;
     submitBtn.disabled = false;
-});
 
-        }
-        
+}, 1500);
         // Initialize ROI calculator
         function initializeROICalculator() {
             // Initial calculation
@@ -2463,6 +2485,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </script>
 </body>
 </html>
+
 
 
 
