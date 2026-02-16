@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/careers", "destination": "/careers.html" }
+  ],
+  "redirects": [
+    { "source": "/careers.html", "destination": "/careers", "permanent": true }
+  ]
+}
